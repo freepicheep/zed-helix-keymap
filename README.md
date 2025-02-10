@@ -8,6 +8,8 @@ I'd like this repo to have:
 * A listing of helix keymap features, mirroring the offical helix docs, tracking which features are implemented so far and the eqivalent command in zed
 * A listing of features needed in zed to get more complete support for helix keybindings
 
+Feel free open a PR if you have a moment to add something!
+
 ## Resources
 
 * [Helix Keymap documentation](https://docs.helix-editor.com/keymap.html)
