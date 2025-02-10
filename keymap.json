@@ -338,13 +338,6 @@
       "d": "editor::Delete", // TODO: yank first
     }
   },
-
-  {
-    "context": "Editor && vim_mode == visual || vim_mode == helix_normal && !VimWaiting && !VimObject",
-    "bindings": {
-      "x": "editor::SelectLine"
-    }
-  },
   {
     "context": "Editor && vim_mode == visual || vim_mode == helix_normal && !VimWaiting && !VimObject",
     "bindings": {
