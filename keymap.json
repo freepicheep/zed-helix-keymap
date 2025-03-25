@@ -249,7 +249,7 @@
       ".": "vim::Repeat",
       "shift-d": "vim::DeleteToEndOfLine",
       "shift-j": "vim::JoinLines",
-      "y": "vim::Yank",
+      "y": "editor::Copy",
       "shift-y": "vim::YankLine",
       "i": "vim::InsertBefore",
       "shift-i": "vim::InsertFirstNonWhitespace",
@@ -336,7 +336,8 @@
       // "ctrl-v": "editor::Paste",
       "shift-u": "editor::Redo",
       "ctrl-c": "editor::ToggleComments",
-      "d": "editor::Delete" // TODO: yank first
+      "d": ["workspace::SendKeystrokes", "y d"],
+      "c": ["workspace::SendKeystrokes", "d i"]
     }
   },
   {
